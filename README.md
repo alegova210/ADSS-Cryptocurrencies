@@ -6,10 +6,10 @@ Group 2
 2. Explanation of the Files
 3. Initial Requirements
 4. Use
-5. Additional Infromation
+5. Additional Information
 
 # Project Description
-This project was developed for the Advanced Data Structures and Storage class. It consists on creating a web in which the user selects one of the available cryptocurrencies, and the web displays information about it. Users must be able not only to select the crypto from the drop dowm menu, but also to search it manually. Not all cryptocurrencies have the same information (is a non-sql project). 
+This project was developed for the Advanced Data Structures and Storage class. It consists on creating a web in which the user selects one of the available cryptocurrencies, and the web displays information about it. Users must be able not only to select the crypto from the drop-down menu, but also to search it manually. Not all cryptocurrencies have the same information (is a non-sql project). 
 
 The project was created using a free account in PythonAnywhere with Python version 3.10 and TinyDB.
 
