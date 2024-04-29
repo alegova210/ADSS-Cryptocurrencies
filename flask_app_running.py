@@ -44,17 +44,17 @@ crypto_data = [
     {'symbol': 'XTZ-USD', 'name': 'Tezos', 'contract': 'Tezos Smart Contract', 'volume': 1000000, 'price': 1.75},
     {'symbol': 'YFI-USD', 'name': 'yearn.finance', 'contract': 'Yearn Finance Smart Contract', 'volume': 15000, 'price': 8700.00},
     {'symbol': 'ZIL-USD', 'name': 'Zilliqa', 'contract': 'Zilliqa Smart Contract', 'volume': 2000000, 'price': 0.05},
-    {'symbol': 'BCH-USD', 'name': 'Bitcoin Cash', 'contract': '', 'volume': 1500000, 'price': 120.25},
-    {'symbol': 'BTC-USD', 'name': 'Bitcoin', 'contract': '', 'volume': 10000000, 'price': 19200.00},
-    {'symbol': 'DASH-USD', 'name': 'Dash', 'contract': '', 'volume': 400000, 'price': 46.20},
-    {'symbol': 'DCR-USD', 'name': 'Decred', 'contract': '', 'volume': 120000, 'price': 28.15},
-    {'symbol': 'DOGE-USD', 'name': 'Dogecoin', 'contract': '', 'volume': 8000000, 'price': 0.065},
-    {'symbol': 'FIL-USD', 'name': 'Filecoin', 'contract': '', 'volume': 500000, 'price': 5.77},
-    {'symbol': 'KSM-USD', 'name': 'Kusama', 'contract': '', 'volume': 60000, 'price': 48.30},
-    {'symbol': 'LTC-USD', 'name': 'Litecoin', 'contract': '', 'volume': 2000000, 'price': 53.20},
-    {'symbol': 'XEM-USD', 'name': 'NEM', 'contract': '', 'volume': 1500000, 'price': 0.042},
-    {'symbol': 'XMR-USD', 'name': 'Monero', 'contract': '', 'volume': 300000, 'price': 150.00},
-    {'symbol': 'ZEC-USD', 'name': 'Zcash', 'contract': '', 'volume': 300000, 'price': 65.00}
+    {'symbol': 'BCH-USD', 'name': 'Bitcoin Cash',  'volume': 1500000, 'price': 120.25},
+    {'symbol': 'BTC-USD', 'name': 'Bitcoin',  'volume': 10000000, 'price': 19200.00},
+    {'symbol': 'DASH-USD', 'name': 'Dash', 'volume': 400000, 'price': 46.20},
+    {'symbol': 'DCR-USD', 'name': 'Decred', 'volume': 120000, 'price': 28.15},
+    {'symbol': 'DOGE-USD', 'name': 'Dogecoin', 'volume': 8000000, 'price': 0.065},
+    {'symbol': 'FIL-USD', 'name': 'Filecoin', 'volume': 500000, 'price': 5.77},
+    {'symbol': 'KSM-USD', 'name': 'Kusama', 'volume': 60000, 'price': 48.30},
+    {'symbol': 'LTC-USD', 'name': 'Litecoin', 'volume': 2000000, 'price': 53.20},
+    {'symbol': 'XEM-USD', 'name': 'NEM', 'volume': 1500000, 'price': 0.042},
+    {'symbol': 'XMR-USD', 'name': 'Monero', 'volume': 300000, 'price': 150.00},
+    {'symbol': 'ZEC-USD', 'name': 'Zcash', 'volume': 300000, 'price': 65.00}
 ]
 
 
@@ -132,3 +132,5 @@ def cryptoinfo():
         return jsonify({"message": f"Información de {symbol}: {crypto_info}"})
     else:
         return jsonify({"error": f"No se encontró información para {symbol}"}), 404
+
+
